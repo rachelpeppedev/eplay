@@ -8,12 +8,15 @@ export const Card = styled.div`
   padding: 8px;
   position: relative;
 
-  ${TagContainer} {
-    margin-right: 8px;
+  img {
+    display: block;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
   }
 
-  img {
-    width: 100%;
+  ${TagContainer} {
+    margin-right: 8px;
   }
 `
 
