@@ -23,6 +23,10 @@ export const HeaderBar = styled.header`
     text-decoration: none;
     font-weight: bold;
   }
+
+  h1 {
+    line-height: 0;
+  }
 `
 
 export const HeaderRow = styled.div`
@@ -67,8 +71,9 @@ export const LinkItem = styled.li`
   }
 `
 
-export const CartButton = styled.a`
+export const CartButton = styled.span`
   display: flex;
+  cursor: pointer;
 
   img {
     margin-left: 16px;
