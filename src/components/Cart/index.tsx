@@ -9,8 +9,6 @@ import { close, remove } from '../../store/reducers/cart'
 
 import * as S from './styles'
 import { getTotalPrice, parseToBrl } from '../../utils'
-import { Game } from '../../pages/Home'
-
 const Cart = () => {
   const { isOpen, items } = useSelector((state: RootReducer) => state.cart)
   const navigate = useNavigate()
